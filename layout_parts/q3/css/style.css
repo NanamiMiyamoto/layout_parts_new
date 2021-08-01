@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.q3__content {
+  table-layout: fixed;
+  width: 100%;
+  border: solid #dedede 1px;
+}
+
+.q3__content th {
+  border: solid #dedede 1px;
+  font-size:18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  padding: 10px;
+  color: #fff;
+}
+
+.q3__content td {
+  text-align:center;
+  border: solid #dedede 1px;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.q3__content tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.q3__content tfoot tr:last-child {
+  border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */
